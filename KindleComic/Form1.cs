@@ -14,6 +14,7 @@ namespace KindleComic
     {
         public Form1()
         {
+
             ComicSource comicSource = new ComicSource("https://www.manhuadb.com");
             comicSource.ComicSourceName = "漫画大全";
             comicSource.SearchPageUrlFormat = "https://www.manhuadb.com/search?q={0}&p={1}";
